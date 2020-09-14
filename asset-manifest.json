@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/drum-machine/static/css/main.e4a23237.chunk.css",
+    "main.js": "/drum-machine/static/js/main.a393f38a.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.a393f38a.chunk.js.map",
+    "runtime-main.js": "/drum-machine/static/js/runtime-main.49a0ba3c.js",
+    "runtime-main.js.map": "/drum-machine/static/js/runtime-main.49a0ba3c.js.map",
+    "static/js/2.88f700bf.chunk.js": "/drum-machine/static/js/2.88f700bf.chunk.js",
+    "static/js/2.88f700bf.chunk.js.map": "/drum-machine/static/js/2.88f700bf.chunk.js.map",
+    "index.html": "/drum-machine/index.html",
+    "precache-manifest.e59f74e6a7c01377f23fe176962ac0fc.js": "/drum-machine/precache-manifest.e59f74e6a7c01377f23fe176962ac0fc.js",
+    "service-worker.js": "/drum-machine/service-worker.js",
+    "static/css/main.e4a23237.chunk.css.map": "/drum-machine/static/css/main.e4a23237.chunk.css.map",
+    "static/js/2.88f700bf.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.88f700bf.chunk.js.LICENSE.txt",
+    "static/media/clap.wav": "/drum-machine/static/media/clap.39f9581a.wav",
+    "static/media/kick.wav": "/drum-machine/static/media/kick.550be808.wav",
+    "static/media/kick_zapper.wav": "/drum-machine/static/media/kick_zapper.dede7ee9.wav",
+    "static/media/openhat_acoustic.wav": "/drum-machine/static/media/openhat_acoustic.a62db465.wav",
+    "static/media/ride_acoustic.wav": "/drum-machine/static/media/ride_acoustic.b0d70ec5.wav",
+    "static/media/snare.wav": "/drum-machine/static/media/snare.ffebfc9e.wav",
+    "static/media/snare_analog.wav": "/drum-machine/static/media/snare_analog.5e055a5d.wav",
+    "static/media/snare_modular.wav": "/drum-machine/static/media/snare_modular.983e56d9.wav",
+    "static/media/tom_fm.wav": "/drum-machine/static/media/tom_fm.79c2c9b6.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49a0ba3c.js",
+    "static/js/2.88f700bf.chunk.js",
+    "static/css/main.e4a23237.chunk.css",
+    "static/js/main.a393f38a.chunk.js"
+  ]
+}
