@@ -1,4 +1,25 @@
 import React, { useEffect, useRef, useCallback, useState } from "react";
+import clap from "../asset/audio/clap.wav";
+import kick_zapper from "../asset/audio/kick_zapper.wav";
+import kick from "../asset/audio/kick.wav";
+import openhat_acoustic from "../asset/audio/openhat_acoustic.wav";
+import ride_acoustic from "../asset/audio/ride_acoustic.wav";
+import snare_analog from "../asset/audio/snare_analog.wav";
+import snare_modular from "../asset/audio/snare_modular.wav";
+import snare from "../asset/audio/snare.wav";
+import tom_fm from "../asset/audio/tom_fm.wav";
+
+const audioObj = {
+  clap: clap,
+  kick_zapper: kick_zapper,
+  kick: kick,
+  openhat_acoustic: openhat_acoustic,
+  ride_acoustic: ride_acoustic,
+  snare_analog: snare_analog,
+  snare_modular: snare_modular,
+  snare: snare,
+  tom_fm: tom_fm,
+};
 
 const DrumPad = ({ name, value, handleClick, drumStatus, volume }) => {
   let clip_ref = useRef(null);
@@ -47,7 +68,7 @@ const DrumPad = ({ name, value, handleClick, drumStatus, volume }) => {
       <audio
         className="clip"
         id={name}
-        src={require(`../asset/audio/${value}.wav`)}
+        src={audioObj[value]}
         ref={clip_ref}
         type="audio/wav"
       ></audio>
